@@ -52,7 +52,7 @@ p {
     margin-top: 0;
 }
 
-@media screen and (min-width: 768px)and(max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
     .container2 {
         overflow: hidden;
@@ -63,6 +63,7 @@ p {
         width: auto;
     }
 }
+
 @media screen and (max-width: 767px) {
 
     .container2 {
@@ -945,13 +946,13 @@ h3 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
